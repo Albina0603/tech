@@ -17,7 +17,8 @@ elif oper ==3:
 elif oper ==4:
      print({a-b})
 elif oper == 5:
-    print(sqrt = a ** (0.5))
+     sqrt=a ** (0.5)
+     print( sqrt)
 elif oper ==6:
      print({a%b})
  
