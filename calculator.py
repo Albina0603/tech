@@ -4,6 +4,7 @@ print("3. for multiply")
 print("4. for subtract")
 print("5. for root")
 print("6. for percent")
+print("7. for power")
 oper = int(input("Выберите цифру"))
 a = int(input("Выберите первое число:"))
 b = int(input("Выберите второе число:"))
@@ -20,8 +21,9 @@ elif oper == 5:
      sqrt=a ** (0.5)
      print( sqrt)
 elif oper ==6:
-     print({a%b})
- 
+     print({a*b}/100)
+elif oper ==7:
+     print{power(a, b)}
 
 
 
