@@ -37,9 +37,9 @@ def find_top_student(students):
                    
             if average>high_score: 
                 high_score = average
-                top_scores = student["name"]
+                top_s = student["name"]
                
-    return top_scores 
+    return top_s 
         
 display_students(students)
 print(get_average_score("Alice", students))
