@@ -37,12 +37,28 @@ def find_top_student(students):
                    
             if average>high_score: 
                 high_score = average
-                top_s = student["name"]
-               
+                top_s = student["name"]               
     return top_s 
+
+def failed_students(students,passing_score=75):
+    failed=[]
+    for student in students:
+        for score in student["scores"].values():
+            if score < passing_score:
+                failed.append(student["name"])
+                break
+    return failed
+
+def unique_subjects(students):
+    subjects=set()
+    for student in students:
+        subjects.update(student["scores"].keys())
+    return subjects    
         
 display_students(students)
 print(get_average_score("Alice", students))
 print(find_top_student(students))
+print(failed_students(students,passing_score=75))
+print(unique_subjects(students))
 
 
