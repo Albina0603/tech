@@ -40,7 +40,7 @@ def find_top_student(students):
                 top_s = student["name"]               
     return top_s 
 
-def failed_students(students,passing_score=75):
+def failed_students(students,passing_score):
     failed=[]
     for student in students:
         for score in student["scores"].values():
