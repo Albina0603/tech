@@ -25,6 +25,8 @@ student1.add_grade(99)
 student2.add_grade(77)
 student2.add_grade(73)
 student1.add_grade(96)
+student2.add_grade(85)
+student1.add_grade(96)
 
 student1.display_info()
 student2.display_info()
