@@ -28,16 +28,17 @@ class Manager(Employees):
     def work(self):
         print(f"{self.name} управляет командой из {self.team_size} человек")
         
-#worker1 = Developer("Алекс" ,30 , 70000 , "Python")
-#worker2 = Manager("Екатерина" , 40 , 90000 , 10)
+worker1 = Developer("Алекс" ,30 , 70000 , "Python")
+worker2 = Manager("Екатерина" , 40 , 90000 , 10)
 
-Employees= [Developer("Алекс" ,30 , 70000 , "Python"),
-            Manager("Екатерина" , 40 , 90000 , 10)]
+#Employees= [Developer("Алекс" ,30 , 70000 , "Python"),
+  #         Manager("Екатерина" , 40 , 90000 , 10)]
 
-for employee in Employees:
-    print(employee.display_info())
-    print(employee.work())
-   
+worker1.display_info()
+worker1.work()
+
+worker2.display_info()
+worker2.work()
 
 
 
