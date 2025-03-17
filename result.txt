@@ -1,0 +1,4 @@
+koren is chisla 25 5.0
+znachenii chisla P:3.141592653589793
+Kosinus 45 gradusov: 0.7071067811865476
+Data i Vremya: 2025-03-17 16:54:42.352219
