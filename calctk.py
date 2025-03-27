@@ -26,12 +26,12 @@ if __name__ == "__main__":
     
     gui.configure(background="light green")
     gui.title("Calc")
-    gui.geometry("270x150")
+    gui.geometry("300x180")
     
     equation = StringVar()
     expression_field = Entry(gui, textvariable=equation)
     
-    expression_field.grid(columnspan=4,ipadx=70)
+    expression_field.grid(columnspan=6,ipadx=80,)
     
     button1 = Button(gui, text="1", fg="black", bg="red", height=1, width=7, command=lambda:press(1))
     button1.grid(row=2, column=0)
